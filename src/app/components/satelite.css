@@ -1,0 +1,16 @@
+.afterbefore{
+    position: relative;
+}
+
+
+.afterbefore::after{
+    content: '\02C5';
+    font-size: 1rem;
+    color: black;
+    position: absolute;
+    top: 0;
+    border: 2px solid black;
+    left: -50px;
+
+    
+}

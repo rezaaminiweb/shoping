@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::selection{
+    background-color: #BC8246  !important;
+    color: white !important;
+
+}
+@font-face {
+    font-family: irannum;
+    src: url(../assets/fonts/fanum/IRANSansWeb\(FaNum\).ttf);
+}
+@font-face {
+    font-family: iranYekanLight;
+    src: url(../assets/fonts/IRANYekanLight.ttf);
+}
+@font-face {
+    font-family: iranYekanBlack;
+    src: url(../assets/fonts/IRANYekanBlack.ttf);
+}
+@font-face{
+    font-family: iranYekanBold ;
+    src: url(../assets/fonts/IRANYekanBold.ttf);
+}
+@font-face{
+    font-family: iranYekanEBold;
+    src: url(../assets/fonts/IRANYekanExtraBold.ttf);
+}
+@font-face {
+    font-family: iranYekanEBlack2;
+    src: url(../assets/fonts/IRANYekanExtraBlack2.ttf);
+}
+@font-face {
+    font-family: iranYekanMedium;
+    src: url(../assets/fonts/IRANYekanMedium.ttf);
+}
+@font-face {
+    font-family: iranYekanRegular;
+    src: url(../assets/fonts/IRANYekanRegular.ttf);
+}
+@font-face {
+    font-family: iranYekanThin;
+    src: url(../assets/fonts/IRANYekanThin.ttf);
+}
+@font-face {
+    font-family: snapFoodBlack;
+    src: url(../assets/fonts/SnappFood/Snapp\ Web\ Bold.ttf);
+}
+@font-face {
+    font-family: snapFoodLight;
+    src: url(../assets/fonts/SnappFood/Snapp\ Web\ Light.ttf);
+}
+@font-face {
+    font-family: snapFoodRegular;
+    src: url(../assets/fonts/SnappFood/Snapp\ Web\ Regular.ttf);
+}
+@font-face {
+    font-family: shabnamBold;
+    src: url(../assets/fonts/shabnam-font/Shabnam-Bold.woff2);
+}
+@font-face {
+    font-family: shabnamLight;
+    src: url(../assets/fonts/shabnam-font/Shabnam-Light.ttf);
+}
+@font-face {
+    font-family: shabnamMedium;
+    src: url(../assets/fonts/shabnam-font/Shabnam-Medium.woff2);
+}
