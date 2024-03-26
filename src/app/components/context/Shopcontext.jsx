@@ -43,7 +43,7 @@ export const ShopContextProvider = (props) => {
                 count: count
             }]);
         }
-        toast.info(
+        toast.success(
             <div dir="rtl" className="flex font-iranYekanMedium text-sm">
                 <img src={existproduct.image2} className="w-10 h-14" />
                 <div className=" flex items-center justify-center w-full px-5">
