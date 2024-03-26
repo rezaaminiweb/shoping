@@ -189,7 +189,7 @@ const Header = () => {
 
                                                                 return (
 
-                                                                    <li className="flex justify-between py-2 px-5">
+                                                                    <li key={val4.id} className="flex justify-between py-2 px-5">
                                                                         <div className="flex">
                                                                             <figure>
                                                                                 <img src={prod.image1} className="w-10 h-10" alt="" />
@@ -428,7 +428,7 @@ const Header = () => {
 
                                                             return (
 
-                                                                <li className="flex justify-between py-2 px-5">
+                                                                <li key={val4.id} className="flex justify-between py-2 px-5">
                                                                     <div className="flex">
                                                                         <figure>
                                                                             <img src={prod.image1} className="w-10 h-10" alt="" />
