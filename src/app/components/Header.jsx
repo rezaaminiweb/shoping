@@ -251,7 +251,7 @@ const Header = () => {
                                                                 </li>
                                                                 <li className="px-5 pt-2">
                                                                     <div className='relative group-custom border flex justify-center  bg-[#323232]' >
-                                                                        <Link href={'/cartItem'} className=' text-center w-full h-full py-2 text-white duration-500 group-custom-hover:text-white group--custom-hover:border-[#BD8448] relative z-10 text-[10px] lg:text-[13px]'>
+                                                                        <Link href={'/checkout'} className=' text-center w-full h-full py-2 text-white duration-500 group-custom-hover:text-white group--custom-hover:border-[#BD8448] relative z-10 text-[10px] lg:text-[13px]'>
                                                                             تسویه حساب
                                                                         </Link>
                                                                         <div className='absolute left-0 top-0 w-full bg-[#BD8448]  h-0 group-custom-hover:h-full duration-500 z-0'>
@@ -490,7 +490,7 @@ const Header = () => {
                                                             </li>
                                                             <li className="px-5 pt-2">
                                                                 <div className='relative group-custom border flex justify-center  bg-[#323232]' >
-                                                                    <Link href={'/cartItem'} className=' text-center w-full h-full text-white py-2 duration-500 group-custom-hover:text-white group--custom-hover:border-[#BD8448] relative z-10 text-[10px] lg:text-[13px]'>
+                                                                    <Link href={'/checkout'} className=' text-center w-full h-full text-white py-2 duration-500 group-custom-hover:text-white group--custom-hover:border-[#BD8448] relative z-10 text-[10px] lg:text-[13px]'>
                                                                         تسویه حساب
                                                                     </Link>
                                                                     <div className='absolute left-0 top-0 w-full bg-[#BD8448]  h-0 group-custom-hover:h-full duration-500 z-0'>
