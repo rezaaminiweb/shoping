@@ -151,7 +151,7 @@ const Checkout = () => {
                                                     {cartItems.map((val) => {
                                                         let sport = productlist.find(item => item.id == val.id)
                                                         return (
-                                                            <div>
+                                                            <div key={val.id}>
                                                                 <h1 className="font-iranYekanEBold">
                                                                     {sport.productName} * {val.count}
                                                                 </h1>
@@ -181,7 +181,7 @@ const Checkout = () => {
                                                     {cartItems.map((val) => {
                                                         let sport = productlist.find(item => item.id == val.id)
                                                         return (
-                                                            <div>
+                                                            <div key={val.id}>
                                                                 <h1>
                                                                     {sport.ProductPriceNew * val.count} $
                                                                 </h1>
