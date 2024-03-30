@@ -114,10 +114,12 @@ const Checkout = () => {
                                                 </label>
                                                 <div className="flex  ">
 
-                                                    <input type="tel" name="phone" placeholder="+989126059969" id="companyname" className="px-2 py-1 outline-none border rounded-sm border-[#707070ed] w-full md:w-[50%] text-end" />
-                                                    <select name="" id="" className="w-[20%] appearance-none">
-                                                        <option value="+98" className="flex">+98 IRAN</option>
-                                                        <option value="+41">+41 UNITED KINGDOM</option>
+                                                    <input type="tel" name="phone" placeholder="9126059969" id="companyname" className="px-2 py-1 outline-none border rounded-sm border-[#707070ed] w-full md:w-[50%] text-end" />
+                                                    <select name="" id="" className="w-[20%] appearance-none px-3">
+                                                        <option value="+98" className="flex">+98 IR</option>
+                                                        <option value="+41">+41 UK</option>
+                                                        <option value="+1">+1 UN</option>
+                                                        <option value="+46">+46 FR</option>
                                                     </select>
                                                 </div>
 

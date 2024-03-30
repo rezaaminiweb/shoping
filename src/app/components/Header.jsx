@@ -41,13 +41,110 @@ const Header = () => {
 
 
     }, []);
+    const [menustart, setmenustart] = useState(false)
 
     return (
         <>
-            <header className="w-full bg-[#F5F5F5]">
+       
+            <header className="w-full bg-[#F5F5F5] relative">
+
+                <div className={menustart ? "absolute w-[70%] duration-300  lg:hidden h-screen top-0 left-[0%] bg-white   z-50" : "absolute w-[50%] duration-300 lg:hidden h-screen top-0 left-[-100%] bg-white   z-50"}>
+                    <ul className="
+         font-iranYekanBold  ">
+                        <li className="p-4">
+                            <CloseIcon className="cursor-pointer" onClick={() => setmenustart(prev => !prev)} />
+                        </li>
+                        <li className="px-4 py-4">
+                            <Link href={'/'}>
+                                خانه
+
+                            </Link>
+                        </li>
+                        <li className="p-4 ">
+                            <Link href={'/shop'}>
+                                فروشگاه
+                            </Link>
+                        </li>
+                        <li className="p-4 relative group">
+                            <Link href={'#'}>
+                                <KeyboardArrowDownIcon />
+                                وبلاگ
+                            </Link>
+                            <ul className="absolute z-50 scale-y-0 origin-top group-hover:scale-y-100 duration-300 bg-white w-[200%] ps-4 py-2 shadow-xl">
+                                <li className="py-2 font-iranYekanBlack">
+                                    <Link href={'#'}>
+                                        وبلاگ
+                                    </Link>
+
+                                </li>
+                                <li className="py-2">
+                                    <Link href={'#'}>
+                                        وبلاگ 1
+                                    </Link>
+
+                                </li>
+                                <li className="py-2">
+                                    <Link href={'#'}>
+                                        وبلاگ 2
+                                    </Link>
+
+                                </li>
+                                <li className="py-2">
+                                    <Link href={'#'}>
+                                        وبلاگ 3
+                                    </Link>
+
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li className="p-4 relative group">
+                            <Link href={'#'}>
+                                <KeyboardArrowDownIcon />
+                                صفحات
+                            </Link>
+                            <ul className="absolute z-50 scale-y-0 origin-top group-hover:scale-y-100 duration-300 bg-white w-[200%] ps-4 py-2 shadow-xl">
+                                <li className="py-2 font-iranYekanBlack">
+                                    <Link href={'#'}>
+                                        صفحات
+                                    </Link>
+
+                                </li>
+                                <li className="py-2">
+                                    <Link href={'#'}>
+                                        صفحات 1
+                                    </Link>
+
+                                </li>
+                                <li className="py-2">
+                                    <Link href={'#'}>
+                                        صفحات 2
+                                    </Link>
+
+                                </li>
+                                <li className="py-2">
+                                    <Link href={'#'}>
+                                        صفحات 3
+                                    </Link>
+
+                                </li>
+
+                            </ul>
+
+
+                        </li>
+                        <li className="px-4 ">
+                            <Link href={'#'}>
+                                <KeyboardArrowDownIcon />
+                                ارتباط با ما
+                            </Link>
+                        </li>
+                    </ul>
+
+                </div>
                 <div className="container mx-auto">
                     <div className=" text-black">
-                        <div className="block lg:flex justify-between px-5 py-3  ">
+                        <div className="block lg:flex justify-between px-5 py-3   ">
                             <div>
                                 <div className="flex justify-center">
                                     <Link href={'/'}>
@@ -145,8 +242,9 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="flex  justify-between pt-6 lg:pt-0">
-                                <div className="flex font-iranYekanBold">
+                            <div className="flex  justify-between pt-6 lg:pt-0 relative">
+
+                                <div className="flex font-iranYekanBold ">
                                     <div className="flex px-2">
                                         <Search className="mx-2" />
                                         <p>
@@ -274,7 +372,7 @@ const Header = () => {
                                 </div>
 
                                 <div className="lg:hidden">
-                                    <Menu className="mx-2" />
+                                    <Menu className="mx-2 cursor-pointer" onClick={()=>setmenustart(prev=>!prev)} />
                                 </div>
                             </div>
 

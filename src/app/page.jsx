@@ -315,7 +315,7 @@ const Home = () => {
                                 <div className='px-10'>
                                     <figure className='font-shabnamMedium flex flex-col '>
                                         <Link href={'#'} className=''>
-                                        <img src="images/blog-1.515cf7a4.jpg" alt="" />
+                                        <img src={item.image} alt="" />
                                         </Link>
                                         <figcaption className='py-5  flex flex-col '>
                                             <div className='flex'>
@@ -377,7 +377,7 @@ const ButtonR = () => {
         </div>
     )
 }
-const Swiper2 = () => {
+ const Swiper2 = () => {
     return (
         <div className='flex justify-center px-20 pb-20'>
             <Swiper loop={true}
@@ -409,7 +409,7 @@ const Swiper2 = () => {
     )
 }
 
-const Pop = () => {
+ const Pop = () => {
     return (
 
         <div className='flex flex-wrap'>
