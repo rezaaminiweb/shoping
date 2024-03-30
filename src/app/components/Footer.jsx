@@ -50,7 +50,7 @@ const Footer = ()=>{
                                 <Email className="text-[#dadada] text-[1.2rem] me-2"/>
                                 <div className="text-[#dadada] ">
                                     <p>
-                                        ایمیل : rezaaminiweb@gmail.com , ahmadrezalaj@gmail.com
+                                        ایمیل : rezaaminiweb@gmail.com 
                                     </p>
                                 </div>
                             </div>
