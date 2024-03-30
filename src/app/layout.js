@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl" >
-      <body className={inter.className + 'relative'}>
+      <body className={inter.className + 'relative overflow-hidden'}>
       
         <ShopContextProvider>
         <App/>
