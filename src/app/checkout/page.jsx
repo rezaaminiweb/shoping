@@ -119,7 +119,7 @@ const Checkout = () => {
                                                         <option value="+98" className="flex">+98 IR</option>
                                                         <option value="+41">+41 UK</option>
                                                         <option value="+1">+1 UN</option>
-                                                        <option value="+46">+46 FR</option>
+                                                        <option value="+46">+46 FRA</option>
                                                     </select>
                                                 </div>
 
