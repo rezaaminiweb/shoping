@@ -23,4 +23,4 @@ Technologies Used : - NEXT.JS , REACT , TAILWINDCSS
 
 Role - Frontend
 
-my <a href="https://instagram.com/reza_web_design?igshid=NGVhN2U2NjQ0Yg==">INSTAGRAM</a> and <a href="https://www.linkedin.com/in/reza-amini-273386272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LINKEDIN</a>
+my <a href="https://www.instagram.com/web_reza/">INSTAGRAM</a> and <a href="https://www.linkedin.com/in/reza-amini-273386272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LINKEDIN</a>
