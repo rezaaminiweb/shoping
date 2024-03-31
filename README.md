@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Screenshot (88)](https://github.com/rezaaminiweb/shoping/assets/140278906/f4e035ef-3d0e-46f0-b72f-6852d2158440)
+![Screenshot (89)](https://github.com/rezaaminiweb/shoping/assets/140278906/4f3bb27b-613c-4d7c-855e-330191f93346)
+![Screenshot (90)](https://github.com/rezaaminiweb/shoping/assets/140278906/7b445ef9-0a4b-4108-930a-4fa8b58b68be)
+![Screenshot (91)](https://github.com/rezaaminiweb/shoping/assets/140278906/fa7931aa-2667-4dc7-851c-5ed4ff0850ac)
+![Screenshot (93)](https://github.com/rezaaminiweb/shoping/assets/140278906/8fa69e9c-b3c5-4043-a4c1-66c4aa32adb4)
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a href="https://shoping-39yhazkaz-rezas-projects-5a587ba5.vercel.app/">DEMO PROJECT</a>
 
-## Deploy on Vercel
+Developed by REZA AMINI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Created - 2024-04-01
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Technologies Used : - NEXT.JS , REACT , TAILWINDCSS 
+
+Role - Frontend
+
+my <a href="https://instagram.com/reza_web_design?igshid=NGVhN2U2NjQ0Yg==">INSTAGRAM</a> and <a href="https://www.linkedin.com/in/reza-amini-273386272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LINKEDIN</a>
